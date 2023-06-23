@@ -1,3 +1,8 @@
+:root {
+  --color-header: #1f2937;
+  --color--accent: #3882f6;
+}
+
 *,
 *::before,
 *::after {
@@ -10,6 +15,52 @@ body {
 
 h1,
 h2,
-p {
+p,
+ul,
+li {
   margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+
+header {
+  width: 100vw;
+  height: 100px;
+  background-color: var(--color-header);
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #f9faf8;
+  font-size: 1.5rem;
+}
+
+.navbar__right {
+  display: flex;
+}
+
+.navbar__right li {
+  margin-left: 0.625rem;
+}
+
+.navbar__right a {
+  color: #e5e7eb;
+  font-size: 1.125rem;
 }
