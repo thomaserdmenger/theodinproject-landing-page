@@ -25,42 +25,45 @@ li {
 /* Navbar */
 
 header {
-  width: 100vw;
-  height: 100px;
   background-color: var(--color-header);
   display: flex;
   justify-content: center;
 }
 
 nav {
-  width: 1440px;
-  margin: 0 auto;
+  width: 100%;
   padding: 0 2rem;
 }
 
-.navbar {
-  list-style: none;
+nav ul {
   display: flex;
   justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100px;
   align-items: center;
-  height: 100%;
 }
 
-.navbar a {
+nav ul li {
+  list-style: none;
+}
+
+nav ul a {
   text-decoration: none;
-  color: #f9faf8;
+}
+
+.navbar__left a {
+  color: #ffffff;
   font-size: 1.5rem;
 }
 
 .navbar__right {
   display: flex;
-}
-
-.navbar__right li {
-  margin-left: 0.625rem;
+  text-align: center;
 }
 
 .navbar__right a {
   color: #e5e7eb;
   font-size: 1.125rem;
+  padding-left: 1rem;
 }
