@@ -67,3 +67,55 @@ nav ul a {
   font-size: 1.125rem;
   padding-left: 1rem;
 }
+
+/* hero section */
+
+.hero {
+  background-color: var(--color-header);
+  padding: 0 2rem;
+}
+
+.hero__wrapper {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.hero__left {
+  width: 100%;
+}
+
+.hero__left h1 {
+  font-weight: 800;
+  color: #f9faf8;
+  font-size: 3rem;
+  line-height: 2.5rem;
+}
+
+.hero__left p {
+  color: #e5e7eb;
+  font-size: 1.125rem;
+  margin: 1rem 0;
+}
+
+.hero__left a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #3882f6;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  margin-bottom: 5rem;
+}
+
+.hero__right {
+  width: 500px;
+  height: 210px;
+  background-color: #6c747d;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
