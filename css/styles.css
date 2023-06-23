@@ -17,6 +17,7 @@ body {
 
 h1,
 h2,
+h3,
 p,
 ul,
 li {
@@ -182,4 +183,43 @@ nav ul a {
 .quote strong {
   align-self: flex-end;
   padding-right: 3rem;
+}
+
+/* action section */
+
+.action {
+  max-width: 100vw;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  padding: 4rem 0;
+}
+
+.action__container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color--accent);
+  border-radius: 10px;
+  padding: 2rem 4.5rem;
+}
+
+.action__button {
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  padding: 0.5rem 2rem;
+  margin-left: 4rem;
+  min-width: 8rem;
+  text-align: center;
+}
+
+.action__container a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.action__container p {
+  margin-top: 0.2rem;
+  font-size: 0.7rem;
 }
