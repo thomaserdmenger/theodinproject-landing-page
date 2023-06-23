@@ -223,3 +223,14 @@ nav ul a {
   margin-top: 0.2rem;
   font-size: 0.7rem;
 }
+
+/* footer */
+
+footer {
+  background-color: var(--color-header);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  font-size: 0.7rem;
+}
