@@ -140,7 +140,9 @@ nav ul a {
 
 .box__main-wrapper {
   display: flex;
+  justify-content: center;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .box__wrapper {
